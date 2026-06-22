@@ -41,7 +41,7 @@ def preprocess_image(image):
 
     # SESUAIKAN DENGAN MODELMU
     img = image.convert("RGB")
-    img = img.resize((224, 224))
+    img = img.resize((128, 128))
 
     img_array = np.array(img)
 
